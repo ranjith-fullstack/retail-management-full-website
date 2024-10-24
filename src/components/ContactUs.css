@@ -1,0 +1,244 @@
+.contactus-body {
+  background-color: #222831;
+  margin-bottom: 30px;
+}
+
+.content-topic-custommm {
+  background-color: #222831;
+}
+
+.content-matter-custommm {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content-heading-customm {
+  font-size: 2rem;
+  color: #76abae;
+}
+
+.billing-container-custommm {
+  display: flex;
+  justify-content: center;
+}
+
+.billing-button-custommm {
+  display: inline-block;
+  padding: 12px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #31363f;
+  background-color: #76abae;
+}
+
+.billing-button-custommm:hover {
+  background-color: #31363f;
+  color: #76abae;
+}
+
+.contact-us-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: auto;
+  width: 90%;
+  color: #eeeeee;
+  background-color: #222831;
+}
+
+.contact-us-form-container {
+  flex: 1;
+}
+
+.fieldbutton {
+  width: 200px;
+  margin-left: 245px;
+}
+
+.contact-us-details-container {
+  flex: 1;
+  padding-left: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-us-details-container h3 {
+  display: block;
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #76abae;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.contact-us-details-container h2 {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #eeeeee;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.contact-us-details-container p {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 5px;
+  text-align: center;
+  color: #eeeeee;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.contact-us-form {
+  padding: 25px;
+  margin: 50px auto;
+  max-width: 500px;
+}
+
+.contact-us-form h3 {
+  display: block;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #eeeeee;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.contact-us-form input[type="text"],
+.contact-us-form input[type="email"],
+.contact-us-form input[type="tel"],
+.contact-us-form input[type="url"],
+.contact-us-form textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #eeeeee;
+  padding: 10px;
+  color: #31363f;
+  font-family: 'League Spartan', sans-serif;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.contact-us-form textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.contact-us-form button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: #76abae;
+  margin-left: -110px;
+  background: #76abae;
+  color: #31363F;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'League Spartan', sans-serif;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.contact-us-form button[type="submit"]:hover {
+  background: #31363F;
+  color: #76abae;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .billing-container-custommm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-form-container,
+  .contact-us-details-container {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .contact-us-form {
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  .contact-us-form h3 {
+    font-size: 24px;
+  }
+
+  .contact-us-form input[type="text"],
+  .contact-us-form input[type="email"],
+  .contact-us-form input[type="tel"],
+  .contact-us-form input[type="url"],
+  .contact-us-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-us-form button[type="submit"] {
+    font-size: 14px;
+  }
+
+  .fieldbutton {
+    margin-left: 200px;
+   
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .billing-container-custommm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-us-form-container,
+  .contact-us-details-container {
+    width: 100%;
+    padding-left: 0;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .contact-us-form {
+    margin: 30px auto;
+    padding: 20px;
+  }
+
+  .contact-us-form h3 {
+    font-size: 24px;
+  }
+
+  .contact-us-form input[type="text"],
+  .contact-us-form input[type="email"],
+  .contact-us-form input[type="tel"],
+  .contact-us-form input[type="url"],
+  .contact-us-form textarea {
+    font-size: 14px;
+  }
+
+  .contact-us-form button[type="submit"] {
+    font-size: 14px;
+  }
+
+  .fieldbutton {
+    margin-left: 110px;
+    text-align: center;
+  }
+}

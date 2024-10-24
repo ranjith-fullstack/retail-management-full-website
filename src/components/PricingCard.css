@@ -1,0 +1,249 @@
+/* PricingCard.css */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.pricing-toggle-switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.pricing-monthly-label {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.pricing-yearly-label {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  margin-left: 20px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.pricing-save-text {
+  font-size: 2rem;
+  margin: 0 204px;
+  font-family: 'Indie Flower', cursive; /* Use the custom font */
+  color: #76abae; /* Change the color */
+  margin-top: 106px;
+}
+
+.pricing-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.pricing-switch input {
+  display: none;
+}
+
+.pricing-slider {
+  width: 60px;
+  height: 25px;
+  background-color: #76abae;
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  border: 4px solid transparent;
+  transition: .3s;
+  box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.25) inset;
+  cursor: pointer;
+}
+
+.pricing-slider::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateX(-30px);
+  border-radius: 20px;
+  transition: .3s;
+  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);
+}
+
+.pricing-switch input:checked + .pricing-slider::before {
+  transform: translateX(30px);
+  box-shadow: 0 0 10px 3px rgb(0, 0, 0, 0.25);
+}
+
+.pricing-switch input:active + .pricing-slider::before {
+  transform: translate(0);
+}
+
+.pricing-container {
+  margin: 10px;
+  text-align: center;
+}
+
+.pricing-header {
+  margin-bottom: 30px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.pricing-cards-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pricing-card {
+  box-shadow: 0 4px 8px rgba(118, 171, 174, 0.5);
+  width: calc(35% - 40px); /* Adjust width to fit two cards in a row */
+  margin: 20px;
+  background-color: #76abae; /* Updated background color */
+  color: #31363F;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  display: inline-block; /* Display cards side by side */
+}
+
+
+.pricing-block-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+ 
+}
+.pricing-plan {
+  color: #31363F;
+  font-size: 2rem;
+  font-weight: 800;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.pricing-price-value {
+  color: #31363F;
+  font-size: 2.2rem;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: 'Indie Flower', cursive; /* Use the custom font */
+}
+
+.pricing-note {
+  opacity: 0.8;
+  font-size: 19px;
+  color: #31363F;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.pricing-btn1{
+  background-color: #31363F;
+  color: #eeeeee;
+  border: none;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 40px;
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 330px;
+  transition: transform 0.3s;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.pricing-btn11 {
+  background-color: #31363F;
+  color: #eeeeee;
+  border: none;
+  width: 200px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  height: 40px;
+  font-size: medium;
+  margin-left: auto;
+  margin-right: auto;
+
+  transition: transform 0.3s;
+  font-family: 'League Spartan', sans-serif;
+}
+
+
+.pricing-btn1:hover, .pricing-btn11:hover {
+  transform: scale(1.1);
+}
+
+/* Media Queries */
+@media (max-width: 1024px) {
+  .pricing-container {
+    padding: 30px;
+  }
+
+  .pricing-header {
+    font-size: 26px;
+  }
+
+  .pricing-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    width: 90%;
+    margin: 15px 0;
+    padding: 18px;
+  }
+
+  .pricing-btn1, .pricing-btn11 {
+    padding: 12px;
+  }
+}
+@media (max-width: 768px) {
+  .pricing-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricing-card {
+    width: 80%; /* Adjust width for tablet view */
+    margin: 20px auto; /* Center align cards */
+  }
+
+  .pricing-note {
+    font-size: 16px; /* Adjust font size for tablet view */
+  }
+
+  .pricing-btn1,
+  .pricing-btn11 {
+    margin-top: 20px; /* Add margin between buttons */
+  }
+  .pricing-toggle-switch {
+   
+    margin-right: 0px;
+    
+  }
+}
+
+
+@media (max-width: 576px) {
+  
+  .pricing-toggle-switch {
+   
+    margin-right: 0px;
+ 
+  }
+  .pricing-container {
+    padding: 0px;
+}
+.pricing-save-text {
+  font-size: 1.2rem;
+  margin: 0 0px;
+   margin-left: 0px;
+}
+.pricing-card {
+  width: calc(110% - 40px);
+}
+.pricing-price-value {
+  font-size: 1.6rem;
+  padding-bottom: 15px;
+}
+}

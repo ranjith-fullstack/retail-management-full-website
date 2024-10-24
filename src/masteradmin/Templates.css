@@ -1,0 +1,455 @@
+.invoice {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #666;
+  }
+  
+  .credit-note {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .invoice table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .invoice th,
+  .invoice td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .invoice th {
+    background-color: #eee;
+    font-weight: bold;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .contact-details {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .contact-details p {
+    margin: 5px 0;
+  }
+  
+  .contact-details p:first-child {
+    margin-top: 0;
+  }
+  
+  .contact-details p:last-child {
+    margin-bottom: 0;
+  }
+  
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    font-style: italic;
+  }
+  
+  
+.invoice-container {
+    font-family: Arial, sans-serif;
+    width: 8.5in;
+    height: 11in;
+    border: 1px solid #000;
+    padding: 1.5em;
+    box-sizing: border-box;
+    margin-left: 330px;
+    margin-top: 80px;
+  }
+   
+  .invoice-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+    border-bottom: 1px solid #000;
+  }
+   
+  .Settingcompany-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 0px;
+   
+  }
+   
+  .invoice-number {
+    font-size: 1.2em;
+    font-weight: bold;
+    /* border-bottom: 1px solid #000; */
+    padding-bottom: 0.5em;
+  }
+   
+  .mailing-info,
+  .bill-to {
+    display: inline-block;
+    width: 45%; /* Adjust the width as needed */
+    vertical-align: top;
+    margin-right: 5%; /* Adjust the spacing between sections */
+  }
+   
+  .mailing-info-header{
+   
+   margin-top: 60px;
+   margin-bottom: -100px;
+  }
+  .mailing-info {
+    position: relative; /* Required for absolute positioning of vertical line */
+    margin-bottom: 15px;
+  }
+   
+  .Settingvertical-line {
+    border-left: 1px solid black; /* Adjust thickness and color as needed */
+    height: 60%; /* Make the line span the height of the container */
+    position: absolute; /* Position the line relative to its parent */
+    margin-left: 100px;
+    margin-top: 40px;
+   
+  }
+  .street-address{
+    margin-bottom: 0.5em;
+    padding-top: 40px;
+    margin-left: 120px;
+   
+  }
+   
+  .phone-fax {
+    margin-top: -25px;
+    margin-left: 120px;
+  }
+  .city-state-zip{
+   
+  margin-top: 10PX;
+  margin-bottom: 30px;
+  margin-left: 120px;
+  }
+   
+  .invoice-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns layout */
+    grid-gap: 5px; /* Adjust as needed for spacing */
+    font-family: Arial, sans-serif; /* Choose appropriate font */
+    border-collapse: collapse; /* Ensures borders are collapsed */
+    width: 100%; /* Full width */
+  }
+   
+   
+   
+  /* .description,
+  .amount {
+    padding: 8px;
+     
+  } */
+   
+  .description {
+    text-align: left;
+    margin-top: 10px;
+  }
+   
+  .amount {
+    text-align: right;
+    margin-top: 10px;
+  }
+  .amount1{
+    margin-left: 350px;
+  }
+  .amount2{
+    margin-left: 350px;
+  }
+   
+  .underline {
+    border-bottom: 2px dashed black;
+    grid-column: 1 / span 2; /* Spans both columns */
+  }
+   
+   
+  .labor-details {
+    margin-bottom: 0.5em;
+  }
+   
+  .other-comments {
+    margin-bottom: 1.5em;
+  }
+   
+  .other-comments ol {
+    padding-left: 1.5em;
+    margin-bottom: 0;
+  }
+   
+  .other-comments li {
+    margin-bottom: 0.5em;
+  }
+   
+  .bill-to {
+   margin-left: 600px;
+   margin-top: -98px;
+  }
+   
+  .bill-to-header {
+    font-size: 1.1em;
+    font-weight: bold;
+  margin-bottom: -25px;
+    margin-left: -120px;
+   
+  }
+   
+   
+   
+  .customer-id,
+   
+  .phone-number {
+    margin-bottom: 0.5em;
+  }
+  .bill-to-address{
+    margin-top: -7px;
+  }
+  .name{
+    margin-top: -8px;
+  }
+  .bill-to-address,
+  .mailing-info {
+    grid-column: 1 / 3;
+  }
+   
+  .amount-details {
+    margin-bottom: 1.5em;
+   
+  }
+   
+  .amount-subtotal,
+  .tax-rate,
+  .tax-amount,
+  .shipping-handling,
+  .discount,
+  .total {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+  }
+  .discount
+   {
+    border-bottom: 2px dashed black; /* Apply dotted border style */
+    margin-bottom: 0.5em; /* Add margin for spacing */
+    padding-bottom: 0.5em; /* Add padding for spacing */
+  }
+   
+   
+  .amount-subtotal {
+    border-top: 2px dashed black; /* Add a border on top of the subtotal section */
+    padding-top: 0.5em; /* Add some padding above the border for spacing */
+   
+  }
+  .Settingamount-label{
+    margin-left: 520px;
+  }
+  .tax-rate-label{
+    margin-left: 520px;
+  }
+  .tax-amount-label{
+    margin-left: 520px;
+  }
+  .shipping-handling-label{
+    margin-left: 520px;
+  }
+  .discount-label{
+    margin-left: 520px;
+  }
+  .total-label{
+    margin-left: 520px;
+  }
+  .payment-details {
+    margin-top: 1.5em;
+    border-top: 1px solid #000;
+    padding-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+  }
+   
+  .payable-to {
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+   
+  /* .invoice-number-check {
+    font-size: 1.1em;
+    margin-bottom: 0;
+    display: flex;
+   
+  } */
+  .Settinginvoice-number-check {
+    display: grid;
+    grid-template-columns: auto auto; /* Two columns */
+   
+  }
+   
+  .invoice-info {
+    justify-self: start; /* Align to the start (left) */
+  }
+   
+  .invoice-date {
+    justify-self: end; /* Align to the end (right) */
+  }
+  .vertical-line {
+    border-left: 1px solid black; /* Adjust as needed */
+    height: 18%; /* Ensures the line spans the height of the container */
+    position: absolute; /* Positions the line relative to its parent */
+    margin-top: 6px;
+    margin-left: -20px;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 120px;
+    bottom: 20px;
+    width: 100%;
+  }
+   
+  .footer-text {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+   
+  @media (max-width: 768px) {
+    .mailing-info,
+    .bill-to {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+   
+  
+/* Invoice Container */
+.iunique-e-invoice-container {
+    width: 300px; /* Adjust width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+  }
+  
+  /* Invoice Header */
+  .iunique-e-invoice-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 5px;
+  }
+  .date{
+    margin-left: 120px;
+    margin-top: -16px;
+  }
+  .token{
+    margin-right: 120px;
+    margin-top: 30px;
+  }
+  
+  /* Company Info */
+  .iunique-e-company-info {
+    flex: 1;
+  }
+  
+  .iunique-e-company-info h1 {
+    font-size: 16px;
+    margin-bottom: 3px;
+    color: #333;
+  }
+  
+  .iunique-e-company-info p {
+    margin-bottom: 3px;
+    color: #555;
+    font-size: 12px;
+  }
+  
+  /* Invoice Details */
+  .iunique-e-invoice-details {
+    text-align: right;
+    flex: 1;
+  }
+  
+  .iunique-e-invoice-details h2 {
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: #333;
+  }
+  
+  .iunique-e-invoice-details p {
+    margin-bottom: 3px;
+    color: #555;
+    font-size: 12px;
+  }
+  
+  /* Invoice Body */
+  .iunique-e-invoice-body {
+    margin-top: 20px;
+  }
+  
+  /* Invoice Table */
+  .iunique-e-invoice-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .iunique-e-invoice-table thead th,
+  .iunique-e-invoice-table tbody td {
+    padding: 5px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .iunique-e-invoice-table thead th {
+    background-color: #f2f2f2; /* Light gray for table headers */
+  }
+  
+  /* Invoice Table Footer */
+  .iunique-e-invoice-table tfoot td {
+    padding: 5px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  /* Invoice Footer */
+  .iunique-e-invoice-footer {
+    text-align: center;
+    margin-top: -320px;
+  }
+  
+  .iunique-e-invoice-footer p {
+    margin-bottom: 0;
+    color: #555;
+    font-size: 12px;
+  }
+  

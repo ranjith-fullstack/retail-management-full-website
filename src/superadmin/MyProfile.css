@@ -1,0 +1,40 @@
+.MyProfile-dashboard-table-wrapper {
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    /* border: 1px solid #ddd; */
+    border-radius: 8px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9; */
+  }
+/*   
+  .input-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .input-field:last-child {
+    margin-right: 0;
+  }
+  
+  .button-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .action-button {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .action-button:last-child {
+    margin-right: 0;
+  }
+   */

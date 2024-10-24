@@ -1,0 +1,14 @@
+.breadcrumbs-container {
+  margin-top: 20px;
+}
+
+.breadcrumb-link {
+  text-decoration: none;
+  color: #a0a0a0; 
+  font-weight: bold; 
+}
+
+.active-breadcrumb {
+  color: #000000; 
+  font-weight: bold; 
+}

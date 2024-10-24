@@ -1,0 +1,355 @@
+.pricing-body {
+  /* overflow-x: hidden; */
+  background-color: #222831;
+  width: 100%;
+}
+
+.premiumclass {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.popular-choice-text {
+  font-size: 1rem;
+  font-family: "Mynerve", cursive; /* Change the font family */
+  color: #76abae;
+  margin-top: 106px;
+}
+.content-topic-customm {
+  background-color: #222831;
+}
+
+.content-matter-customm {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content-heading-customm {
+  font-size: 2rem;
+  color: #76abae;
+}
+
+.billing-container-customm {
+  display: flex;
+  justify-content: center;
+}
+
+.billing-button-customm {
+  display: inline-block;
+  padding: 12px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: #31363F;
+  background-color: #76abae; /* Default button color */
+}
+
+.billing-button-customm:hover {
+  background-color: #31363F;
+  color: #76abae;
+}
+
+.pricingPage-main-heading-custom {
+  text-align: center;
+  background-color: #222831;
+}
+
+.pricingPage-main-heading-custom h1 {
+  font-size: 40px;
+  color: #eeeeee;
+}
+
+.pricingPage-main-heading-custom p {
+  font-size: 28px;
+  color: #eeeeee;
+}
+
+.pricingPage-additional-features-custom {
+  background-color: #222831;
+}
+
+.pricingPage-why-use-retail-heading-custom {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem; /* Larger font size */
+  background-color: #222831;
+  padding: 15px 0; /* Add padding for spacing */
+  border-radius: 8px; /* Rounded corners */
+  color: #eeeeee;
+}
+
+.pricingPage-fastest-growing-heading-custom {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #eeeeee;
+  font-size: 1.5rem; /* Smaller font size */
+}
+
+.pricingPage-buttons-container-custom {
+  display: flex;
+  justify-content: center;
+}
+
+.pricingPage-button-custom {
+  display: inline-block;
+  padding: 12px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pricingPage-create-account-button-custom {
+  background-color: #76abae; /* Default button color */
+  color: #eeeeee;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #222831;
+  font-family: sans-serif;
+}
+
+.App-header {
+  background-color: #222831;
+  color: #eeeeee;
+  padding: 20px;
+  text-align: center;
+}
+
+.cardss {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.card1,
+.card2,
+.card3 {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #eeeeee;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #31363F;
+}
+
+.card1 img {
+  width: 100%;
+  height: 200px;
+  /* object-fit: cover; */
+}
+
+.card1-content {
+  padding: 10px;
+}
+
+.card1-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.pricingPage-card {
+  color: #31363F;
+  display: flex;
+}
+
+.pricingPage-card0 {
+  background-color: #31363F;
+}
+
+.pricingPage-card1 {
+  width: 30%;
+  height: auto;
+  margin-left: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  padding: 50px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #eeeeee;
+}
+
+.pricingPage-card1 h4 {
+  margin-left: 20px;
+}
+
+.pricingPage-card2 {
+  width: 70%;
+  height: auto;
+  margin-left: 50px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  padding: 50px;
+  border-radius: 8px;
+  margin-right: 40px;
+  background-color: #eeeeee;
+}
+
+.pricingPage-card2 h4 {
+  margin-left: 50px;
+}
+
+.pricingPage-div1 {
+  text-align: left;
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
+.pricingPage-div2 {
+  text-align: left;
+  margin-top: 25px;
+}
+
+.pricingPage-div3 {
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 25px;
+}
+
+.pricingPage-div4 {
+  text-align: left;
+  margin-left: 180px;
+  margin-top: 25px;
+}
+
+.innercards {
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Adjustments for tablets and smaller screens */
+@media only screen and (max-width: 1024px) {
+  .pricingPage-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricingPage-card1,
+  .pricingPage-card2 {
+    width: 90%; /* Adjust width for better fit */
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px; /* Add margin between the cards */
+  }
+
+  .innercards {
+    flex-direction: column;
+  }
+
+  .pricingPage-div1,
+  .pricingPage-div2,
+  .pricingPage-div3,
+  .pricingPage-div4 {
+    text-align: center; /* Center align inner divs */
+    margin-left: 0; /* Remove margin */
+  }
+
+  .pricingPage-buttons-container-custom {
+    flex-direction: column; /* Change button layout to column */
+    align-items: center; /* Center align buttons */
+  }
+
+  .pricingPage-button-custom {
+    margin-left: 0; /* Remove margin for buttons */
+  }
+}
+
+/* Adjustments for mobile devices */
+@media only screen and (max-width: 480px) {
+  .pricingPage-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pricingPage-card1,
+  .pricingPage-card2 {
+    width: 90%; /* Adjust width for better fit */
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px; /* Add margin between the cards */
+    height: auto; /* Adjust height */
+  }
+
+  .innercards {
+    flex-direction: column;
+  }
+
+  .pricingPage-div1,
+  .pricingPage-div2,
+  .pricingPage-div3,
+  .pricingPage-div4 {
+    text-align: center; /* Center align inner divs */
+    margin-left: 0; /* Remove margin */
+  }
+
+  .pricingPage-buttons-container-custom {
+    flex-direction: column; /* Change button layout to column */
+    align-items: center; /* Center align buttons */
+  }
+
+  .pricingPage-button-custom {
+    margin-left: 0; /* Remove margin for buttons */
+  }
+  .pricingPage-main-heading-custom p {
+    font-size: 22px;
+  }
+}
+
+/* Additional adjustments for smaller screens */
+@media only screen and (max-width: 360px) {
+  .pricingPage-card1,
+  .pricingPage-card2 {
+    width: 90%; 
+  }
+  .pricingPage-main-heading-custom p {
+    font-size: 25px;
+    color: #eeeeee;
+  }
+  .pricingPage-why-use-retail-heading-custom {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  /* Other existing styles */
+
+  .pricingPage-card2 {
+    /* Other existing styles */
+    display: flex;
+    flex-direction: column; /* Change to column layout for smaller screens */
+    overflow: hidden; /* Prevent overflow */
+  }
+
+  .innercards {
+    /* Other existing styles */
+    flex-direction: column; /* Change to column layout for smaller screens */
+  }
+
+  .pricingPage-div1,
+  .pricingPage-div2,
+  .pricingPage-div3,
+  .pricingPage-div4 {
+    /* Other existing styles */
+    margin-left: 0; /* Remove margin for inner divs */
+    text-align: center; /* Center align inner divs */
+  }
+}

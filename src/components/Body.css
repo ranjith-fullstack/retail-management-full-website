@@ -1,0 +1,607 @@
+.body-container{
+  width: 100%;
+  background-color: #222831;
+  color: #eeeeee;
+
+}
+
+.text-container {
+  text-align: center;
+}
+
+.intro-paragraph {
+  font-size: 45px;
+  color: #eeeeee;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  padding: 50px 10px 10px 10px;
+}
+
+.highlight {
+  color: #76abae;
+  font-weight: bolder;
+  font-size: 89px;
+  font-style: italic;
+  text-align: center;
+  padding: 10px;
+}
+
+.summary-paragraph {
+  font-size: 39px; 
+  color: #eeeeee;
+  text-align: center;
+  font-weight: 250;
+  font-family: 'League Spartan', sans-serif;
+  padding: 10px;
+}
+
+/* imageslides */
+
+.image-container {
+  width: 100%;
+  padding: 10px;
+}
+.slideshow-container {
+  position: relative;
+  height: 80vh;
+  overflow: hidden;
+  justify-content: center; 
+  align-items: center; 
+}
+.slideshow-image {
+  width: 100%; 
+  height: 100%; 
+  object-fit: contain; 
+  
+}
+
+/* image And Para */
+
+
+.salesSections, .reportsSection, .importsExportsSection, .phoneEmailSection {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 10px; 
+}
+
+.checkout-image-container, .checkout-image-container1, .imageTextSection, .image-text-reports {
+  flex: 1; 
+  text-align: center;
+}
+
+.checkout-image{
+  max-width: 100%; 
+  height: auto;
+  width: 84%;
+
+}
+.checkout-image1 {
+  max-width: 100%; 
+  height: auto;
+  /* width: 83%; */
+  width: 68%;
+
+}
+
+.details-paragraph,
+.details-paragraph1 {
+  font-size: 28px;
+  color: #eeeeee; 
+  margin-top: 10px; 
+  text-align: left;
+  padding-top: 30px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.imageTextSection, .image-text-reports {
+  font-size: 30px; 
+  text-align: center;
+  color: #76abae;
+  font-family: 'League Spartan', sans-serif; /* Align text to the right */
+  padding-left: 50px;
+  padding-right: 30px;
+}
+.imageTextSection h2, .image-text-reports h2 {
+  text-align: center;
+  font-size: 46px;
+}
+
+
+
+/* media queries */
+
+@media (max-width: 575.98px) {
+.highlight {
+  font-size: 40px;
+  margin-top: 0px;
+
+}
+.salesSections, .reportsSection, .importsExportsSection, .phoneEmailSection {
+  display: block;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+  padding: 10px; 
+}
+
+.intro-paragraph {
+  font-size: 28px;
+  padding: 20px;
+  border-top: 0.5px solid wheat;
+}
+
+.summary-paragraph {
+  font-size: 24px;
+  
+}
+.checkout-image,
+.checkout-image1 {
+  max-width: 100%; 
+  height: auto;
+  width: 100%;
+
+}
+.imageTextSection, .image-text-reports {
+  padding: 10px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.imageTextSection h2, .image-text-reports h2 {
+  font-size: 39px;
+}
+.details-paragraph, .details-paragraph1 {
+  font-size: 20px;
+  margin-top: 0px;
+  padding-top: 10px;
+}
+ .text-container p{
+    margin-bottom: 0px;
+  }
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .highlight {
+    font-size: 40px;
+    margin-top: 0px;
+  
+  }
+  .salesSections, .reportsSection, .importsExportsSection, .phoneEmailSection {
+    display: block;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 10px; 
+  }
+  
+  .intro-paragraph {
+    font-size: 28px;
+    padding: 20px;
+    border-top: 0.5px solid wheat;
+  }
+  
+  .summary-paragraph {
+    font-size: 24px;
+    
+  }
+  .checkout-image,
+  .checkout-image1 {
+    max-width: 100%; 
+    height: auto;
+    width: 100%;
+  
+  }
+  .imageTextSection, .image-text-reports {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .imageTextSection h2, .image-text-reports h2 {
+    font-size: 39px;
+  }
+  .details-paragraph, .details-paragraph1 {
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+   .text-container p{
+      margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+ 
+  .highlight {
+    font-size: 40px;
+    margin-top: 0px;
+  
+  }
+  .salesSections, .reportsSection, .importsExportsSection, .phoneEmailSection {
+    display: block;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 10px; 
+  }
+  
+  .intro-paragraph {
+    font-size: 28px;
+    padding: 20px;
+    border-top: 0.5px solid wheat;
+  }
+  
+  .summary-paragraph {
+    font-size: 24px;
+    
+  }
+  .checkout-image,
+  .checkout-image1 {
+    max-width: 100%; 
+    height: auto;
+    /* width: 100%; */
+    width: 66%;
+  
+  }
+  .imageTextSection, .image-text-reports {
+    padding: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .imageTextSection h2, .image-text-reports h2 {
+    font-size: 39px;
+  }
+  .details-paragraph, .details-paragraph1 {
+    font-size: 20px;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+   .text-container p{
+      margin-bottom: 0px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .body-container{
+    width: 100%;
+    background-color: #222831;
+    color: #eeeeee;
+  
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  .intro-paragraph {
+    font-size: 45px;
+    color: #eeeeee;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    padding: 50px 10px 10px 10px;
+  }
+  
+  .highlight {
+    color: #76abae;
+    font-weight: bolder;
+    font-size: 89px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .summary-paragraph {
+    font-size: 39px; 
+    color: #eeeeee;
+    text-align: center;
+    font-weight: 250;
+    font-family: 'League Spartan', sans-serif;
+    padding: 10px;
+  }
+  
+  /* imageslides */
+  
+  .image-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .slideshow-container {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center; 
+  }
+  .slideshow-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    
+  }
+  
+  /* image And Para */
+  
+  
+  .salesSections, .reportsSection, .importsExportsSection, .phoneEmailSection {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 10px; 
+  }
+  
+  .checkout-image-container, .checkout-image-container1, .imageTextSection, .image-text-reports {
+    flex: 1; 
+    text-align: center;
+  }
+  
+  .checkout-image{
+    max-width: 100%; 
+    height: auto;
+    width: 84%;
+  
+  }
+  .checkout-image1 {
+    max-width: 100%; 
+    height: auto;
+    /* width: 83%; */
+    width: 68%;
+  
+  }
+  
+  .details-paragraph,
+  .details-paragraph1 {
+    font-size: 28px;
+    color: #eeeeee; 
+    margin-top: 10px; 
+    text-align: left;
+    padding-top: 30px;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .imageTextSection, .image-text-reports {
+    font-size: 30px; 
+    text-align: center;
+    color: #76abae;
+    font-family: 'League Spartan', sans-serif; /* Align text to the right */
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+  .imageTextSection h2, .image-text-reports h2 {
+    text-align: center;
+    font-size: 46px;
+  }
+  
+}
+
+@media (min-width: 1200px) and (max-width: 1440.98px) {
+  .body-container{
+    width: 100%;
+    background-color: #222831;
+    color: #eeeeee;
+  
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  .intro-paragraph {
+    font-size: 45px;
+    color: #eeeeee;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    padding: 50px 10px 10px 10px;
+  }
+  
+  .highlight {
+    color: #76abae;
+    font-weight: bolder;
+    font-size: 89px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .summary-paragraph {
+    font-size: 39px; 
+    color: #eeeeee;
+    text-align: center;
+    font-weight: 250;
+    font-family: 'League Spartan', sans-serif;
+    padding: 10px;
+  }
+  
+  /* imageslides */
+  
+  .image-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .slideshow-container {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center; 
+  }
+  .slideshow-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    
+  }
+  
+  /* image And Para */
+  
+  
+  .salesSections, .reportsSection, .importsExportsSection, .phoneEmailSection {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 10px; 
+  }
+  
+  .checkout-image-container, .checkout-image-container1, .imageTextSection, .image-text-reports {
+    flex: 1; 
+    text-align: center;
+  }
+  
+  .checkout-image{
+    max-width: 100%; 
+    height: auto;
+    width: 84%;
+  
+  }
+  .checkout-image1 {
+    max-width: 100%; 
+    height: auto;
+    /* width: 83%; */
+    width: 68%;
+  
+  }
+  
+  .details-paragraph,
+  .details-paragraph1 {
+    font-size: 28px;
+    color: #eeeeee; 
+    margin-top: 10px; 
+    text-align: left;
+    padding-top: 30px;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .imageTextSection, .image-text-reports {
+    font-size: 30px; 
+    text-align: center;
+    color: #76abae;
+    font-family: 'League Spartan', sans-serif; /* Align text to the right */
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+  .imageTextSection h2, .image-text-reports h2 {
+    text-align: center;
+    font-size: 46px;
+  }
+  
+}
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+  .body-container{
+    width: 100%;
+    background-color: #222831;
+    color: #eeeeee;
+  
+  }
+  
+  .text-container {
+    text-align: center;
+  }
+  
+  .intro-paragraph {
+    font-size: 45px;
+    color: #eeeeee;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    padding: 50px 10px 10px 10px;
+  }
+  
+  .highlight {
+    color: #76abae;
+    font-weight: bolder;
+    font-size: 89px;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .summary-paragraph {
+    font-size: 39px; 
+    color: #eeeeee;
+    text-align: center;
+    font-weight: 250;
+    font-family: 'League Spartan', sans-serif;
+    padding: 10px;
+  }
+  
+  /* imageslides */
+  
+  .image-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .slideshow-container {
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+    justify-content: center; 
+    align-items: center; 
+  }
+  .slideshow-image {
+    width: 100%; 
+    height: 100%; 
+    object-fit: contain; 
+    
+  }
+  
+  /* image And Para */
+  
+  
+  .salesSections, .reportsSection, .importsExportsSection, .phoneEmailSection {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 10px; 
+  }
+  
+  .checkout-image-container, .checkout-image-container1, .imageTextSection, .image-text-reports {
+    flex: 1; 
+    text-align: center;
+  }
+  
+  .checkout-image{
+    max-width: 100%; 
+    height: auto;
+    width: 84%;
+  
+  }
+  .checkout-image1 {
+    max-width: 100%; 
+    height: auto;
+    /* width: 83%; */
+    width: 68%;
+  
+  }
+  
+  .details-paragraph,
+  .details-paragraph1 {
+    font-size: 48px;
+    color: #eeeeee; 
+    margin-top: 10px; 
+    text-align: left;
+    padding-top: 30px;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .imageTextSection, .image-text-reports {
+    font-size: 30px; 
+    text-align: center;
+    color: #76abae;
+    font-family: 'League Spartan', sans-serif; /* Align text to the right */
+    padding-left: 50px;
+    padding-right: 30px;
+  }
+  .imageTextSection h2, .image-text-reports h2 {
+    text-align: center;
+    font-size: 77px;
+  }
+  
+}

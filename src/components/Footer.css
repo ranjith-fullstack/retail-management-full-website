@@ -1,0 +1,330 @@
+/* .custom-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #eeeeee;
+  background-color: #222831;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.footer-address {
+  text-align: center;
+  margin-right: 5em; 
+}
+
+.footer-logo {
+  font-weight: 600;
+  color: #eeeeee;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.footer-address h2 {
+  font-size: 1rem;
+  margin-top: 0.5em;
+}
+
+.footer-address address {
+  font-style: normal;
+  color: #999;
+  margin-bottom: 1em;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1em;
+}
+
+.footer-nav-item {
+  margin-right: 10em; 
+}
+
+.footer-title {
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.footer-nav-ul {
+  list-style: none;
+  padding-left: 0;
+  font-weight: 500;
+}
+
+.footer-nav-ul a {
+  color: #76abae;
+  text-decoration: none;
+}
+
+.legal {
+  display: flex;
+  flex-wrap: wrap;
+  color: #eeeeee;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+}
+
+.legal-links {
+  display: flex;
+  align-items: center;
+}
+
+.heart {
+  color: red;
+}
+
+@media screen and (max-width: 992px) {
+  .footer-logo {
+    font-size: 1.2rem;
+  }
+
+  .footer-address h2 {
+    font-size: 0.8rem;
+    margin-left: 3em;
+  }
+
+  .footer-address {
+    font-size: 0.7rem;
+  }
+
+  .footer-nav-item {
+    margin-right: 1.5em;
+  }
+
+  .footer-title {
+    font-size: 0.9rem;
+  }
+
+  .footer-nav-ul a {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .footer-logo {
+    font-size: 1rem;
+    margin-left: -0.4em; 
+
+  }
+
+  .footer-address h2 {
+    margin-left: 1.8em; 
+  }
+  
+  .footer-address {
+    font-size: 0.7rem;
+    margin-left: 3em;
+  }
+
+  .footer-nav-item {
+    margin-right: 1.5em;
+  }
+
+  .footer-title {
+    font-size: 0.8rem;
+  }
+
+  .footer-nav-ul a {
+    font-size: 0.7rem;
+  }
+} */
+
+
+.custom-footer {
+  /* width: 100%; */
+  background-color: #f8f9fa;
+  padding: 20px 0;
+  background-color: #222831;
+  color: #eee;
+  font-family: League Spartan, sans-serif;
+}
+
+.footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-around;
+}
+.footer-address, .footer-nav-item, .footer-nav-item-extra {
+  flex: 1;
+  max-width: 200px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  max-width: 200px;
+  margin-bottom: 20px;
+  
+}
+.footer-address {
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+
+.footer-logo {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+
+  color: #eee;
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+.footer-address address {
+  color: #999;
+  font-style: normal;
+  margin-bottom: 1em;
+}
+.footer-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+
+}
+.footer-nav-ul a {
+    color: #76abae;
+    text-decoration: none;
+}
+
+
+.footer-nav-ul a:hover {
+  text-decoration: none;
+}
+
+.footer-nav-item {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+  list-style-type: disc !important;
+}
+
+
+
+.footer-nav-ul {
+  list-style: none;
+  padding: 0;
+  font-weight: 500;
+}
+
+.footer-nav-ul-extra {
+  padding-left: 0;
+}
+
+.footer-nav-ul li {
+  margin-bottom: 5px;
+}
+
+
+
+.footer-nav-item-extra {
+  flex: 1 1 200px;
+  margin-bottom: 20px;
+}
+
+.legal {
+  text-align: center;
+  padding: 20px;
+  /* background-color: #e9ecef; */
+  color: #eee;
+    margin-top: 1em;
+}
+
+.legal p {
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.legal img {
+  vertical-align: middle;
+}
+
+.heart {
+  color: #e25555;
+}
+
+/* for reboot */
+ol, ul {
+  padding-left: 0rem;
+}
+
+
+@media (max-width: 575.98px) {
+
+.footer-address {
+  /* flex: 1 1 300px; */
+  margin-bottom: 20px;
+  text-align: center;
+  display: block;
+}
+.footer-logo {
+
+  font-size: 25px;
+ 
+}
+.footer-address address{
+  font-size: 10px;
+}
+.footer-navigation {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  justify-content: space-around;
+}
+
+.footer-nav-ul a {
+  font-size: 12px;
+}
+.footer-title {
+  font-size: 25px;
+}
+.legal p {
+  font-size: 12px;
+}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .footer-address {
+      /* flex: 1 1 300px; */
+      margin-bottom: 20px;
+      text-align: center;
+      display: block;
+    }
+    .footer-logo {
+    
+      font-size: 25px;
+     
+    }
+    .footer-address address{
+      font-size: 10px;
+    }
+    .footer-navigation {
+      display: ruby;
+      flex-wrap: wrap;
+      text-align: left;
+      justify-content: space-around;
+    }
+    
+    .footer-nav-ul a {
+      font-size: 12px;
+    }
+    .footer-title {
+      font-size: 25px;
+    }
+    .legal p {
+      font-size: 12px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+@media (max-width: 1200.98px) {
+}

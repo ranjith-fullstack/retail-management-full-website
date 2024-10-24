@@ -1,0 +1,240 @@
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+ 
+.chatbot-chatbot-container {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  z-index: 1000;
+  animation: heartbeat 1.5s infinite;
+}
+ 
+.chatbot-chatbot-container.animationPaused {
+  animation-play-state: paused;
+}
+ 
+.chatbot-chatbot-help-text {
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  background: #eeeeee;
+  color: #31363F;
+  padding: 5px 10px;
+  border-radius: 10px;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  font-family: 'League Spartan', sans-serif;
+}
+ 
+.chatbot-close-help-button {
+  transition: background-color 0.3s ease;
+  color: #31363F;
+  background-color: #eeeeee;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  margin-left: 10px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+ 
+.chatbot-chatbot-content {
+  position: relative;
+  font-family: 'League Spartan', sans-serif;
+}
+ 
+.chatbot-chatbot-button {
+  transition: background-color 0.3s ease;
+  color: #31363F;
+  background-color: #76abae;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 24px;
+  cursor: pointer;
+}
+ 
+.chatbot-question{
+  color: #31363F;
+}
+ 
+.chatbot-dialog {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  width: 300px;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+ 
+.chatbot-dialog-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background: #76abae;
+  color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: 'League Spartan', sans-serif;
+}
+ 
+.chatbot-dialog-body {
+  padding: 20px;
+  max-height: 260px;
+  overflow-y: auto;
+  font-family: 'League Spartan', sans-serif;
+}
+ 
+.chatbot-dialog-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  font-family: 'League Spartan', sans-serif;
+}
+ 
+.chatbot-nav-button {
+  transition: background-color 0.3s ease;
+  color: #31363F;
+  background-color: #76abae;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  flex: 1;
+  margin: 0 5px;
+  font-family: 'League Spartan', sans-serif;
+}
+ 
+.chatbot-nav-button:first-child {
+  margin-left: 0;
+}
+ 
+.chatbot-nav-button:disabled {
+  background: #ddd;
+  cursor: not-allowed;
+  color: #999;
+}
+ 
+.chatbot-nav-button:first-child:disabled,
+.chatbot-nav-button:last-child:disabled {
+  background: #ddd !important;
+  cursor: not-allowed;
+  color: #999;
+}
+ 
+.chatbot-nav-button:hover:not(:disabled),
+.chatbot-close-button:hover,
+.chatbot-chatbot-button:hover,
+.chatbot-close-help-button:hover,
+.chatbot-answers button:hover {
+  background-color: #31363F;
+  color: #76abae;
+}
+ 
+.chatbot-close-button {
+  border: none;
+  transition: background-color 0.3s ease;
+  color: #31363F;
+  background-color: #76abae;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+ 
+.chatbot-answers button {
+  display: block;
+  margin: 5px 0;
+  width: 100%;
+  background: #76abae;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-family: 'League Spartan', sans-serif;
+}
+ 
+.chatbot-answers input[type="text"] {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+ 
+.chatbot-contact-details input {
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: calc(100% - 22px);
+}
+ 
+.chatbot-contact-details button {
+  background: #76abae;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: 100%;
+}
+.chatbot-contact-details h3{
+  color: #31363F;
+}
+ 
+.chatbot-answers button.chatbot-selected {
+  background-color: #31363F;
+  color: #76abae;
+}
+ 
+.chatbot-contact-details button[type="submit"] {
+  transition: background-color 0.3s ease;
+  color: #31363F;
+  background-color: #76abae;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 10px;
+  width: 50%;
+  font-family: 'League Spartan', sans-serif;
+}
+.error-message {
+  color: #ff726f;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+ 
+.chatbot-contact-details button[type="submit"]:hover {
+  background-color: #31363F;
+  color: #76abae;
+}
+.thank-you-popup {
+  position: fixed;
+  bottom: 130px;
+  right: 20px;
+  background: white;
+  color: #31363F;
+  padding: 10px 20px;
+  width: 250px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  font-family: 'League Spartan', sans-serif;
+  z-index: 1001;
+}

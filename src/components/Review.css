@@ -1,0 +1,172 @@
+.reviews-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  font-family: 'League Spartan', sans-serif;
+  text-align: center;
+  font-size: 20PX;
+}
+
+.review-slider {
+  display: flex;.reviews-wrapper {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'League Spartan', sans-serif;
+    text-align: center;
+    font-size: 20PX;
+  }
+  
+  .review-slider {
+    display: flex;
+    overflow-x: auto;
+    padding: 1rem 0;
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  .review-slider::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .review-slider::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .review-card {
+    flex: 0 0 auto;
+    width: 387px;
+    margin-right: 1rem;
+    border-radius: 1rem;
+    background-color: #eeeeee;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    border: 1px solid transparent;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .review-image-container {
+    text-align: center;
+  }
+  
+  .review-image {
+    width: 45%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .review-content {
+    padding: 2rem;
+  }
+  
+  .review-title {
+    color: #31363F;
+ 
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .review-desc {
+    margin-top: 2.5rem;
+    color: #31363F;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .review-designation {
+    font-size: 1.2rem;
+    color: #31363F;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .review-company {
+    font-size: 1.2rem;
+    color: #31363F;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .review-card {
+      width: 99%;
+      margin-right: 0.5rem;
+    }
+  }
+  
+  overflow-x: auto;
+  padding: 1rem 0;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+.review-slider::-webkit-scrollbar {
+  width: 8px;
+}
+
+.review-slider::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+.review-card {
+  flex: 0 0 auto;
+  width: 475px;
+  margin-right: 1rem;
+  border-radius: 1rem;
+  background-color: #eeeeee;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  border: 1px solid transparent;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.review-image-container {
+  text-align: center;
+}
+
+.review-image {
+  width: 45%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.review-content {
+  padding: 2rem;
+}
+
+.review-title {
+  color: #222831;
+  font-size: 1.3rem;
+  font-weight: 600;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.review-desc {
+  margin-top: 2.5rem;
+  color: #222831;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.review-designation {
+  font-size: 1.2rem;
+  color: #222831;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.review-company {
+  font-size: 1.2rem;
+  color: #222831;
+  font-family: 'League Spartan', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+  .review-card {
+    width: 99%;
+    margin-right: 0.5rem;
+  }
+}

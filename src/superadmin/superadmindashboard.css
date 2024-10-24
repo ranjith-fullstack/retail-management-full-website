@@ -1,0 +1,233 @@
+
+/* General Container Styles */
+.superadmin-dashboard-container {
+  position: relative;
+}
+.superadmin-dashboard-maincontainer {
+  margin: 40px;
+}
+ 
+/* Master Admin Container */
+.superadmin-masteradmin-container {
+  transition: filter 0.3s ease-in-out;
+}
+.superadmin-masteradmin-container.blurred {
+  filter: blur(5px);
+}
+ 
+/* Column Layouts */
+.superadmin-col-lg-6 {
+  display: flex;
+  flex-direction: column;
+}
+.superadmin-col-lg-6 :nth-child(2) {
+  width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  .superadmin-col-lg-6 :nth-child(2) {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}
+ 
+/* Privacy Message */
+.superadmin-privacy-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.superadmin-privacy-message-content {
+  text-align: center;
+}
+.superadmin-hide-button {
+  position: absolute;
+  top: 1px;
+  right: 10px;
+}
+ 
+/* superadmin-card Styles */
+.superadmin-card-list {
+  width: 100%;
+}
+.superadmin-card {
+  border-radius: 8px;
+  color: #eeeeee;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.zmdi {
+  color: #eeeeee;
+  font-size: 28px;
+  opacity: 0.3;
+  position: absolute;
+  right: 13px;
+  top: 13px;
+}
+.stat {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 8px;
+  margin-top: 20px;
+  padding: 10px 10px 0;
+  text-transform: uppercase;
+}
+.superadmin-title {
+  display: inline-block;
+  font-size: 18px;
+  padding: 7px 7px 0;
+  text-transform: uppercase;
+}
+.superadmin-value {
+  font-size: 28px;
+  padding: 0 10px;
+}
+.superadmin-card.blue,
+.superadmin-card.green,
+.superadmin-card.orange,
+.superadmin-card.red {
+  background-color: #eeeeee;
+  border-color: #76abae;
+ 
+}
+ 
+/* Responsive Table and Chart Styles */
+.superadmin-tablebarr {
+  margin: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .superadmin-dashboard-maincontainer {
+      margin: 20px;
+  }
+  .superadmin-tablebarr {
+      margin: 10px;
+  }
+}
+.superadmin-tablebarr {
+  margin: 20px;
+}
+ 
+/* Sticky Column Styles */
+.sticky-column {
+  position: sticky;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 1;
+}
+.sticky-column-username {
+  position: sticky;
+  left: 60px;
+  background-color: #ffffff;
+  z-index: 1;
+}
+ 
+/* Button Styles */
+.buttongngn {
+  display: inline-block;
+  border: 1px solid #4f4f4f;
+  border-radius: 4px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  cursor: pointer;
+  color: #31363F;
+  z-index: 1;
+  height: 40px;
+  width: 100px;
+}
+.buttongngn:before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.25);
+  top: 100%;
+  width: 140%;
+  height: 180%;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+.buttongngn:after {
+  content: "";
+  position: absolute;
+  left: 55%;
+  transform: translateX(-50%) scaleY(1) scaleX(1.45);
+  top: 180%;
+  width: 160%;
+  height: 190%;
+  background-color: #76abae;
+  border-radius: 50%;
+  display: block;
+  transition: all 0.5s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
+  z-index: -1;
+}
+.buttongngn:hover {
+  color: #eeeeee;
+  border: 1px solid #76abae;
+}
+.buttongngn:hover:before {
+  top: -35%;
+  background-color: #76abae;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+.buttongngn:hover:after {
+  top: -45%;
+  background-color: #76abae;
+  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+}
+ 
+/* Responsive Image Styles */
+.img1 {
+  margin-top: 30px;
+  height: 400px;
+}
+.img11 {
+  margin-top: 30px;
+  height: 400px;
+}
+.selected-img {
+  border: 2px solid #76abae;
+}
+@media only screen and (max-width: 768px) {
+  .img11 {
+      margin-top: 30px;
+      height: 200px;
+  }
+}
+ 
+/* Chart Container Styles */
+/* Chart Container Styles */
+.superadmin-apex-chart-container {
+  margin: 30px 0; /* Adjust margin for better view */
+  padding: 20px; /* Add padding for better text visibility */
+  background: #ffffff; /* Optional: Add a background color for better contrast */
+  border-radius: 8px; /* Optional: Add border radius for smoother edges */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for better separation */
+}
+ 
+/* Table Heading Styles */
+.superadmin-table-heading {
+  margin: 20px 0; /* Add space above and below the heading */
+  font-weight: bold;
+}
+ 
+/* Add gap between heading and chart */
+.superadmin-chart-heading {
+  margin-bottom: 20px; /* Add space below the heading */
+}
+ 
+ 
+ 

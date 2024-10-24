@@ -1,0 +1,931 @@
+/* .partnerspage-body{
+  overflow-x: hidden;
+  
+}
+.partners-page-body-container {
+   
+    padding: 20px;
+  
+    background-color: #222831;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #eeeeee;
+    margin-top: -100px;
+}
+
+.partnersmargin {
+ padding-bottom: 50px;
+}
+
+.partners-page-image-container-custom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.partners-page-column {
+  width: 30%;
+}
+
+.partners-page-checkout-image-container {
+    text-align: center;
+    padding-top: 50px;
+  
+}
+
+.partners-page-checkout-image {
+    max-width: 100%;
+    padding:20px;
+    height: 400px;
+}
+
+.partners-page-image-text {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 20px;
+ align-content: center;
+    width: 100%;
+}
+
+.partners-page-image-text1 {
+    font-size: 30px;
+    text-align: center;
+    color: #76abae;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .partners-page-image-text1 ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .partners-page-image-text1 ul li {
+    margin-bottom: 10px;
+  }
+  
+  .partners-page-image-text1 ul li i {
+    color: #76abae; 
+    margin-right: 10px;
+  }
+  
+  
+
+
+.partners-page-image-text h2 {
+    margin-bottom: 10px;
+}
+
+.partners-page-details-paragraph {
+    font-size: 20px;
+    color: #eeeeee;
+    margin-top: 10px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.partners-page-features-container-custom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 90px;
+}
+
+.partners-page-feature-card-custom {
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #eeeeee;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.partners-page-feature-card-custom:hover {
+    box-shadow: 0 16px 32px rgba(118, 171, 174, 0.4);
+}
+
+.partners-page-feature-icon-custom {
+ 
+    font-size: 36px; /
+    margin-bottom: 10px;
+    color: #31363F;
+    
+
+}
+
+.partners-page-feature-heading-custom {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #31363F;
+}
+
+.partners-page-feature-description-custom {
+    font-size: 1.2rem;
+    color: #31363F;
+}
+
+.partners-page-additional-features-custom {
+    margin-bottom: 50px;
+}
+
+.partners-page-why-use-retail-heading-custom {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #76abae;
+}
+
+.partners-page-fastest-growing-heading-custom {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #76abae;
+    font-size: 1.5rem;
+}
+
+
+.partners-page-tick-icon {
+    color: #76abae; 
+    margin-right: 5px;
+  }
+.partners-page-buttons-container-custom {
+    display: flex;
+    justify-content: center;
+}
+
+.partners-page-button-custom {
+    display: inline-block;
+    padding: 12px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.partners-page-create-account-button-custom,
+.partners-page-demo-request-button-custom {
+    background-color: #76abae;
+    color: #31363F;
+}
+
+.partners-page-create-account-button-custom:hover,
+.partners-page-demo-request-button-custom:hover {
+  background-color: #31363F;
+  color: #76abae;
+}
+
+
+.checkout-image-containerrr {
+
+  width: 50%;
+  float: left;
+
+  padding-top: 170px;
+ 
+}
+ 
+
+.checkout-imagee {
+width: 100%;
+  height:  auto;
+
+}
+.image-container {
+  width: 100%;
+  margin-top: 20px;
+}
+ 
+
+ 
+.detail-container {
+  width: 50%; 
+  float: left;
+  padding-left: 20px;
+  padding-top: 170px; 
+}
+ 
+.image-text {
+  font-size: 30px;
+
+  text-align: center;
+  padding-top: 180px;
+  color: #76abae;
+  font-family: 'League Spartan', sans-serif; 
+}
+ 
+
+.image-text1 {
+  font-size: 30px;
+
+  text-align: center;
+  padding-top: 20px;
+  color: #76abae;
+  font-family: 'League Spartan', sans-serif; 
+}
+
+
+
+
+.image-text-partnersPage h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+.summary-paragraph2 {
+  font-size: 30px; 
+  color: #eeeeee;
+  text-align: left;
+  font-weight: 150;
+  margin-bottom: 55px; 
+  margin-top: 70px; 
+  font-family: 'League Spartan', sans-serif;
+}
+
+
+.contact-form-container {
+    flex: 1;
+    width: 700px;
+  }
+
+  
+  .contact-form {
+    background: hsl(216, 18%, 16%);
+    padding: 25px;
+    margin: 50px auto;
+    max-width: 1000px; 
+  }
+  
+  .contact-form h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #eeeeee;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .contact-form h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #76abae;
+    font-family: 'League Spartan', sans-serif;
+  }
+  
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form input[type="tel"],
+  .contact-form input[type="url"],
+  .contact-form textarea {
+    width: 95%;
+    background: #eeeeee;
+    padding: 10px;
+    color: #31363f;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px; 
+    margin-bottom: 10px; 
+  }
+  
+  .contact-form input[type="text"]:hover,
+  .contact-form input[type="email"]:hover,
+  .contact-form input[type="tel"]:hover,
+  .contact-form input[type="url"]:hover,
+  .contact-form textarea:hover {
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  .contact-form textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  .contact-form button[type="submit"] {
+    cursor: pointer;
+    width: 30%;
+    border: none;
+    margin-left: 210px;
+    background: #76abae;
+    color: #31363F;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'League Spartan', sans-serif;
+    border-radius: 10px; 
+    margin-top: 10px; 
+  }
+  
+  .contact-form button[type="submit"]:hover {
+    background-color: #31363F;
+    color: #76abae;
+  }
+  
+  .contact-form button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
+.partners-page-image-container-custom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners-page-column {
+  flex: 1 1 33.33%; 
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-text1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.image-text1 ul li {
+  margin-bottom: 10px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .partners-page-column {
+    flex: 1 1 50%; 
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .partners-page-image-container-custom {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .partners-page-body-container {
+    flex-direction: column; 
+    align-items: center;
+    padding-top: 100px;
+  }
+
+  .checkout-image-containerrr,
+  .detail-container {
+    width: 100%; 
+    padding: 0 20px; 
+    text-align: center; 
+  }
+
+
+ .contact-form-container {
+    flex: 1;
+    width: 300px;
+  }
+  .contact-form button[type="submit"] {
+    margin-left: 80px;
+  }
+  .image-container {
+    width: 100%;
+    margin-top: 0px;
+    padding: 15px;
+  }
+  
+  .partners-page-column {
+    flex: 1 1 100%; 
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .partners-page-checkout-image {
+    max-width: 100%; 
+    height: auto;
+  }
+  
+  
+  
+  
+}
+
+ */
+
+
+
+/* Body Container */
+.partners-page-body-container {
+  padding: 20px;
+  background-color: #222831;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: #eeeeee;
+  /* margin-top: -100px; */
+  width: 100%;
+}
+
+.partnersmargin {
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1;
+}
+
+.checkout-image-containerr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding-top: 170px; */
+}
+
+
+  
+.checkout-imagee {
+  /* max-width: 50%; */
+  height: auto;
+  padding: 20px;
+  width: 500px;
+}
+
+.image-text {
+  /* max-width: 50%; */
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
+  color: #76abae;
+  font-family: 'League Spartan', sans-serif;
+}
+
+
+
+.partners-page-image-container-custom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Column */
+.partners-page-column {
+  width: 30%;
+}
+
+/* Checkout Image Container */
+.partners-page-checkout-image-container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.partners-page-checkout-image {
+  max-width: 100%;
+  padding: 20px;
+  height: 400px;
+}
+
+/* Image Text */
+.partners-page-image-text {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'League Spartan', sans-serif;
+  margin-top: 20px;
+  align-content: center;
+  width: 100%;
+}
+
+/* Assuming you're using Font Awesome for the tick icons */
+.partners-page-image-text1 {
+  font-size: 30px;
+  text-align: center;
+  color: #76abae;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.partners-page-image-text1 ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.partners-page-image-text1 ul li {
+  margin-bottom: 10px;
+}
+
+.partners-page-image-text1 ul li i {
+  color: #76abae; /* Assuming your tick icon color */
+  margin-right: 10px;
+}
+
+/* Image Text Headings */
+.partners-page-image-text h2 {
+  margin-bottom: 10px;
+}
+
+.partners-page-details-paragraph {
+  font-size: 20px;
+  color: #eeeeee;
+  margin-top: 10px;
+  font-family: 'League Spartan', sans-serif;
+}
+
+/* Features Container */
+.partners-page-features-container-custom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 10px;
+}
+
+/* Feature Card */
+.partners-page-feature-card-custom {
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #eeeeee;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-page-feature-card-custom:hover {
+  box-shadow: 0 16px 32px rgba(118, 171, 174, 0.4);
+}
+
+.partners-page-feature-icon-custom {
+  font-size: 36px; /* Adjust icon size as needed */
+  margin-bottom: 10px;
+  color: #31363F;
+}
+
+.partners-page-feature-heading-custom {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #31363F;
+}
+
+.partners-page-feature-description-custom {
+  font-size: 1.2rem;
+  color: #31363F;
+}
+
+/* Additional Features */
+.partners-page-additional-features-custom {
+  margin-bottom: 50px;
+}
+
+/* Why Use Retail Heading */
+.partners-page-why-use-retail-heading-custom {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: #76abae;
+}
+
+/* Fastest Growing Heading */
+.partners-page-fastest-growing-heading-custom {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #76abae;
+  font-size: 1.5rem;
+}
+
+.partners-page-tick-icon {
+  color: #76abae; /* Set your desired color */
+  margin-right: 5px; /* Adjust spacing if needed */
+}
+
+/* Buttons Container */
+.partners-page-buttons-container-custom {
+  display: flex;
+  justify-content: center;
+}
+
+/* Button Styles */
+.partners-page-button-custom {
+  display: inline-block;
+  padding: 12px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.partners-page-create-account-button-custom,
+.partners-page-demo-request-button-custom {
+  background-color: #76abae;
+  color: #31363F;
+}
+
+.partners-page-create-account-button-custom:hover,
+.partners-page-demo-request-button-custom:hover {
+  background-color: #31363F;
+  color: #76abae;
+}
+
+.image-text-partnersPage h2 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.summary-paragraph2 {
+  font-size: 24px; /* Set font size relative to viewport width */
+  color: #eeeeee;
+  text-align: left;
+  font-weight: 150;
+  margin-bottom: 55px; /* Adjust margin relative to viewport height */
+  margin-top: 70px; /* Adjust margin relative to viewport height */
+  font-family: 'League Spartan', sans-serif;
+}
+
+.contact-form-container {
+  flex: 1;
+  width: 700px;
+}
+
+.contact-form {
+  background: hsl(216, 18%, 16%);
+  padding: 25px;
+  margin: 50px auto;
+  max-width: 1000px; /* Adjust max-width as needed */
+}
+
+.contact-form h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #eeeeee;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.contact-form h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #76abae;
+  font-family: 'League Spartan', sans-serif;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form input[type="url"],
+.contact-form textarea {
+  width: 95%;
+  background: #eeeeee;
+  padding: 10px;
+  color: #31363f;
+  font-family: 'League Spartan', sans-serif;
+  border-radius: 10px; /* Add border radius */
+  margin-bottom: 10px; /* Add margin bottom for gap */
+}
+
+.contact-form input[type="text"]:hover,
+.contact-form input[type="email"]:hover,
+.contact-form input[type="tel"]:hover,
+.contact-form input[type="url"]:hover,
+.contact-form textarea:hover {
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+.contact-form textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+.contact-form button[type="submit"] {
+  cursor: pointer;
+  width: 30%;
+  border: none;
+  margin-left: 210px;
+  background: #76abae;
+  color: #31363F;
+  padding: 10px;
+  font-size: 18px;
+  font-family: 'League Spartan', sans-serif;
+  border-radius: 10px; /* Add border radius */
+  margin-top: 10px; /* Add margin top for gap */
+}
+
+.contact-form button[type="submit"]:hover {
+  background-color: #31363F;
+  color: #76abae;
+}
+
+.contact-form button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+/* Default styling */
+.partners-page-image-container-custom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.partners-page-column {
+  flex: 1 1 33.33%; /* Display 3 columns per row by default */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-text1 ul {
+  list-style-type: none;
+}
+
+.checkout-image-container-S{
+
+}
+
+.checkout-image-partnerspage {
+  width: 589px;
+  padding: 20px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1024px) {
+  /* .partners-page-column {
+    flex: 1 1 50%; 
+  } */
+
+  .checkout-imagee {
+    width: 370px;
+  }
+  .checkout-image-containerr {
+    padding-top: 5px;
+  }
+  .checkout-image-partnerspage {
+    width: 380px;
+    padding: 20px;
+}
+
+.partners-page-checkout-image {
+  max-width: 100%;
+  padding: 15px;
+  height: 270px;
+}
+.partners-page-checkout-image-container {
+  text-align: center;
+  padding-top: 0px;
+}
+.summary-paragraph2 {
+  font-size: 16px;
+  color: #eeeeee;
+  text-align: left;
+  font-weight: 150;
+  margin-bottom:10px;
+  margin-top: 10px;
+  font-family: 'League Spartan', sans-serif;
+}
+.partners-page-image-container-custom {
+  margin-bottom: 20px;
+}
+}
+
+@media only screen and (max-width: 767.98px) {
+  .partnersmargin {
+    padding-bottom: 50px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex: 1 1;
+  }
+  .partners-page-checkout-image {
+    padding: 2px;
+  }
+  .partners-page-feature-card-custom {
+    width: 270px;
+    height: 270px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #eeeeee;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  .checkout-image-containerr,
+  .detail-container {
+    width: 100%; /* Full width on smaller screens */
+    padding: 0 20px; /* Add padding to maintain spacing */
+    text-align: center; /* Center align elements */
+  }
+  .partners-page-checkout-image-container {
+    padding-top: 0px;
+  }
+
+  .contact-form-container {
+    flex: 1;
+    width: 300px;
+  }
+
+  .contact-form button[type="submit"] {
+    margin-left: 80px;
+  }
+
+  .partners-page-column {
+    flex: 1 1 100%; /* Display 1 column per row on smaller screens */
+  }
+
+  .partners-page-checkout-image {
+    max-width: 100%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .partners-page-features-container-custom {
+    padding-top: 20px; /* Adjust padding for smaller screens */
+ 
+  }
+  .partners-page-image-container-custom {
+    padding: 0px;
+  }
+  .image-text1 ul {
+    list-style-type: none;
+}
+.summary-paragraph2 {
+  font-size: 20px;
+}
+.partners-page-why-use-retail-heading-custom {
+  font-size: 30px;
+}
+
+.checkout-image-containerr {
+  flex-direction: column;
+  padding: 20px;
+}
+
+.checkout-imagee, .image-text {
+  max-width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+
+.checkout-image-partnerspage {
+  width: 310px;
+  padding: 20px;
+}
+}
+
+
